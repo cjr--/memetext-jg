@@ -21,48 +21,42 @@ Plain text back at the start.
 
 var parser = new Parser();
 
-parser.OnToken += token =>
+void Log(ConsoleColor color, string? message, bool newLine = false)
 {
-    Console.ForegroundColor = ConsoleColor.Magenta;
-    Console.Write($"{token.LineNumber,4}  ");
+    Console.ForegroundColor = color;
+    if (newLine) Console.WriteLine(message); else Console.Write(message);
+}
 
-    Console.ForegroundColor = ConsoleColor.Cyan;
-    Console.Write($"{token.Level,2}  ");
+parser.OnToken += token =>
+{    
+    Log(ConsoleColor.Magenta, $"{token.LineNumber,4}  ");
+    Log(ConsoleColor.Cyan, $"{token.Level,2}  ");
+    Log(ConsoleColor.Yellow, $"{token.Type,-15}  ");
 
-    Console.ForegroundColor = ConsoleColor.Yellow;
-    Console.Write($"{token.Type,-15}  ");
     if (token.Type != TokenType.LineBreak)
-    {
-        Console.ForegroundColor = ConsoleColor.Gray;
-        Console.WriteLine(token.Text);
-    }
+        Log(ConsoleColor.Gray, token.Text, true);    
     else
-    {
-        Console.WriteLine();
-    }    
+        Console.WriteLine(); 
 };
 
 var document = parser.Parse(testText);
 
 int indent = 0;
 var spc = "                                                                                ";
-WriteNode(document);
+LogNode(document);
 
-void WriteNode(Node node)
+void LogNode(Node node)
 {    
-    Console.Write(spc.Substring(0, indent * 4));
+    Log(ConsoleColor.Gray, spc.Substring(0, indent * 4));
+    
     if (node is TextLiteral t)
-    {
-        Console.ForegroundColor = ConsoleColor.Gray;
-        Console.WriteLine(t.Text);
-    }
+        Log(ConsoleColor.Gray, t.Text, true);    
     else
-    {
-        Console.ForegroundColor = ConsoleColor.Yellow;
-        Console.WriteLine(node.GetType().Name);        
-    }
+        Log(ConsoleColor.Yellow, node.GetType().Name, true);
+
     indent += 1;
     foreach (var child in node.Children)
-        WriteNode(child);
+        LogNode(child);
+
     indent -= 1;
 }

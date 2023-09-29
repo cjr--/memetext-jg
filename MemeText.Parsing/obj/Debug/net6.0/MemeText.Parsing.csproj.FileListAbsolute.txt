@@ -1,0 +1,15 @@
+D:\MemePlan\MemeText\MemeText.Parsing\bin\Debug\net6.0\MemeText.Parsing.deps.json
+D:\MemePlan\MemeText\MemeText.Parsing\bin\Debug\net6.0\MemeText.Parsing.dll
+D:\MemePlan\MemeText\MemeText.Parsing\bin\Debug\net6.0\MemeText.Parsing.pdb
+D:\MemePlan\MemeText\MemeText.Parsing\obj\Debug\net6.0\MemeText.Parsing.csproj.AssemblyReference.cache
+D:\MemePlan\MemeText\MemeText.Parsing\obj\Debug\net6.0\MemeText.Parsing.GeneratedMSBuildEditorConfig.editorconfig
+D:\MemePlan\MemeText\MemeText.Parsing\obj\Debug\net6.0\MemeText.Parsing.AssemblyInfoInputs.cache
+D:\MemePlan\MemeText\MemeText.Parsing\obj\Debug\net6.0\MemeText.Parsing.AssemblyInfo.cs
+D:\MemePlan\MemeText\MemeText.Parsing\obj\Debug\net6.0\MemeText.Parsing.csproj.CoreCompileInputs.cache
+D:\MemePlan\MemeText\MemeText.Parsing\obj\Debug\net6.0\MemeText.Parsing.dll
+D:\MemePlan\MemeText\MemeText.Parsing\obj\Debug\net6.0\refint\MemeText.Parsing.dll
+D:\MemePlan\MemeText\MemeText.Parsing\obj\Debug\net6.0\MemeText.Parsing.pdb
+D:\MemePlan\MemeText\MemeText.Parsing\obj\Debug\net6.0\ref\MemeText.Parsing.dll
+D:\MemePlan\MemeText\MemeText.Parsing\bin\Debug\net6.0\MemeText.Models.dll
+D:\MemePlan\MemeText\MemeText.Parsing\bin\Debug\net6.0\MemeText.Models.pdb
+D:\MemePlan\MemeText\MemeText.Parsing\obj\Debug\net6.0\MemeText.Parsing.csproj.CopyComplete

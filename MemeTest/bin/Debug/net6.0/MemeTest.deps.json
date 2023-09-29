@@ -1,0 +1,49 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v6.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v6.0": {
+      "MemeTest/1.0.0": {
+        "dependencies": {
+          "MemeText.Parsing": "1.0.0"
+        },
+        "runtime": {
+          "MemeTest.dll": {}
+        }
+      },
+      "MemeText.Models/1.0.0": {
+        "runtime": {
+          "MemeText.Models.dll": {}
+        }
+      },
+      "MemeText.Parsing/1.0.0": {
+        "dependencies": {
+          "MemeText.Models": "1.0.0"
+        },
+        "runtime": {
+          "MemeText.Parsing.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "MemeTest/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "MemeText.Models/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "MemeText.Parsing/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

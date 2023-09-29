@@ -1,0 +1,12 @@
+D:\MemePlan\MemeText\MemeText.Models\bin\Debug\net6.0\MemeText.Models.deps.json
+D:\MemePlan\MemeText\MemeText.Models\bin\Debug\net6.0\MemeText.Models.dll
+D:\MemePlan\MemeText\MemeText.Models\bin\Debug\net6.0\MemeText.Models.pdb
+D:\MemePlan\MemeText\MemeText.Models\obj\Debug\net6.0\MemeText.Models.csproj.AssemblyReference.cache
+D:\MemePlan\MemeText\MemeText.Models\obj\Debug\net6.0\MemeText.Models.GeneratedMSBuildEditorConfig.editorconfig
+D:\MemePlan\MemeText\MemeText.Models\obj\Debug\net6.0\MemeText.Models.AssemblyInfoInputs.cache
+D:\MemePlan\MemeText\MemeText.Models\obj\Debug\net6.0\MemeText.Models.AssemblyInfo.cs
+D:\MemePlan\MemeText\MemeText.Models\obj\Debug\net6.0\MemeText.Models.csproj.CoreCompileInputs.cache
+D:\MemePlan\MemeText\MemeText.Models\obj\Debug\net6.0\MemeText.Models.dll
+D:\MemePlan\MemeText\MemeText.Models\obj\Debug\net6.0\refint\MemeText.Models.dll
+D:\MemePlan\MemeText\MemeText.Models\obj\Debug\net6.0\MemeText.Models.pdb
+D:\MemePlan\MemeText\MemeText.Models\obj\Debug\net6.0\ref\MemeText.Models.dll
